@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2A295D</color>
+    <color name="colorPrimaryDark">#0C0F21</color>
+    <color name="colorAccent">#6699FF</color>
+
+    <!--APP主色调-->
+    <color name="background">#0C0F21</color>
+    <color name="transparent">#00000000</color>
+    <color name="line">#6699FF</color>
+    <color name="table_title">#1B1C3F</color>
+    <color name="bar">#5C5B7A</color>
+    <color name="content">#2A295D</color>
+    <color name="back_dark">#090A17</color>
+    <color name="text_return">#6395F9</color>
+
+    <!--常用颜色-->
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="grey">#999999</color>
+    <color name="light_gray">#ddd</color>
+    <color name="blue">#2A58D0</color>
+    <color name="green">#41DC7E</color>
+    <color name="tran_half">#88000000</color>
+</resources>

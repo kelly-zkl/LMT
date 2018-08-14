@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PX130"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/Horizontal_0M1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/LabelText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/EARFCN" />
+
+            <TextView
+                android:id="@+id/tv_earfcn"
+                style="@style/ContentText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/undefine" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Horizontal_0M1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/LabelText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/PCI" />
+
+            <TextView
+                android:id="@+id/tv_pci"
+                style="@style/ContentText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/undefine" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/BlackLine" />
+
+    <RadioGroup
+        android:id="@+id/rg_scan"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PX130"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbtn_village"
+            style="@style/CommonRadioButton"
+            android:background="@drawable/bg_radiobutton_scan_selector"
+            android:text="@string/village_message"
+            android:textColor="@color/textcolor_scan_rbtn" />
+
+        <RadioButton
+            android:id="@+id/rbtn_param"
+            style="@style/CommonRadioButton"
+            android:background="@drawable/bg_radiobutton_scan_selector"
+            android:text="@string/multi_param"
+            android:textColor="@color/textcolor_scan_rbtn" />
+
+        <RadioButton
+            android:id="@+id/rbtn_signalling"
+            style="@style/CommonRadioButton"
+            android:background="@drawable/bg_radiobutton_scan_selector"
+            android:text="@string/signalling"
+            android:textColor="@color/textcolor_scan_rbtn" />
+
+        <RadioButton
+            android:id="@+id/rbtn_event"
+            style="@style/CommonRadioButton"
+            android:background="@drawable/bg_radiobutton_scan_selector"
+            android:text="@string/event_list"
+            android:textColor="@color/textcolor_scan_rbtn" />
+    </RadioGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_scan"
+        style="@style/Vertical_M01">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

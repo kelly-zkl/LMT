@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- background -->
+    <item
+        android:id="@android:id/background"
+        android:drawable="@drawable/progressbar_bg_shape" />
+    <!-- progress -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <solid android:color="@color/green" />
+                <corners android:radius="@dimen/PX10" />
+            </shape>
+        </clip>
+    </item>
+    <!-- second progress -->
+
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <solid android:color="#38EE2F" />
+                <corners android:radius="@dimen/PX10" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fitsSystemWindows="true">
+
+    <include
+        android:id="@+id/home_view"
+        layout="@layout/home_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/nav_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_gravity="start"-->
+    <!--android:background="@color/background"-->
+    <!--android:fitsSystemWindows="true">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="@dimen/PX80"-->
+    <!--android:text="@string/setting"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="16sp" />-->
+
+    <!--<TextView style="@style/BlackLine" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_log_set"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/bg_btn_dark_light_selcetor"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:padding="@dimen/PX50"-->
+    <!--android:text="@string/log_set"-->
+    <!--android:textColor="@color/white" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_test_set"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/bg_btn_dark_light_selcetor"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:padding="@dimen/PX50"-->
+    <!--android:text="@string/test_set"-->
+    <!--android:textColor="@color/white" />-->
+    <!--</LinearLayout>-->
+    <!--</RelativeLayout>-->
+</RelativeLayout>

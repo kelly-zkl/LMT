@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/layout_title"
+        layout="@layout/layout_title_return_save" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/PX30"
+        android:layout_marginTop="@dimen/PX30"
+        android:padding="@dimen/PX20"
+        android:text="@string/call_set"
+        android:textColor="@color/grey" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PX130"
+        android:background="@drawable/bg_btn_light_dark_selector"
+        android:paddingLeft="@dimen/PX50"
+        android:paddingRight="@dimen/PX50">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/auto_call"
+            android:textColor="@color/white" />
+
+        <Switch
+            android:id="@+id/sw_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PX130"
+        android:layout_marginTop="@dimen/PX30"
+        android:background="@drawable/bg_btn_light_dark_selector"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/PX50"
+        android:paddingRight="@dimen/PX50">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/call_number"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/et_phonenumber"
+            style="@style/CommonEdit"
+            android:layout_marginLeft="@dimen/PX80"
+            android:hint="@string/input_call_number"
+            android:inputType="phone"
+            android:lines="1"
+            android:maxLength="11"
+            android:textCursorDrawable="@drawable/line_blue_shape" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PX130"
+        android:layout_marginTop="@dimen/PX30"
+        android:background="@drawable/bg_btn_light_dark_selector"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/PX50"
+        android:paddingRight="@dimen/PX50">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/call_space"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/et_space"
+            style="@style/CommonEdit"
+            android:layout_marginLeft="@dimen/PX80"
+            android:hint="@string/input_call_space"
+            android:inputType="number"
+            android:lines="1"
+            android:textCursorDrawable="@drawable/line_blue_shape" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/second"
+            android:textColor="@color/grey" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PX130"
+        android:layout_marginTop="@dimen/PX3"
+        android:background="@drawable/bg_btn_light_dark_selector"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/PX50"
+        android:paddingRight="@dimen/PX50">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/call_time"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/et_time"
+            style="@style/CommonEdit"
+            android:layout_marginLeft="@dimen/PX80"
+            android:hint="@string/input_call_time"
+            android:inputType="number"
+            android:lines="1"
+            android:textCursorDrawable="@drawable/line_blue_shape" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/second"
+            android:textColor="@color/grey" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/PX30"
+        android:layout_marginTop="@dimen/PX30"
+        android:padding="@dimen/PX20"
+        android:text="@string/called_set"
+        android:textColor="@color/grey" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PX130"
+        android:background="@drawable/bg_btn_light_dark_selector"
+        android:paddingLeft="@dimen/PX50"
+        android:paddingRight="@dimen/PX50">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/called_auto_answer"
+            android:textColor="@color/white" />
+
+        <Switch
+            android:id="@+id/sw_called"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

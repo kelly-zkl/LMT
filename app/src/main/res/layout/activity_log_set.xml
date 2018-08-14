@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <!--<include-->
+    <!--android:id="@+id/layout_title"-->
+    <!--layout="@layout/layout_title_return" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PX130"
+        android:background="@drawable/bg_btn_light_dark_selector"
+        android:paddingLeft="@dimen/PX30"
+        android:paddingRight="@dimen/PX30">
+
+        <TextView
+            android:id="@+id/tv_start"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/auto_collection"
+            android:textColor="@color/white" />
+
+        <Switch
+            android:id="@+id/sw_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:theme="@style/MySwitch" />
+
+        <TextView
+            android:id="@+id/tv_storage_size"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/PX30"
+            android:layout_toLeftOf="@+id/sw_log"
+            android:gravity="center"
+            android:text="@string/undefine"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_model"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PX130"
+        android:layout_marginTop="@dimen/PX30"
+        android:background="@drawable/bg_btn_light_dark_selector"
+        android:paddingLeft="@dimen/PX30"
+        android:paddingRight="@dimen/PX30">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/import_model"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="@dimen/PX30"
+            android:drawableRight="@mipmap/icon_arrow"
+            android:gravity="center"
+            android:text="@string/unsupport_import"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/rl_open_file"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PX130"
+        android:layout_marginTop="@dimen/PX3"
+        android:background="@drawable/bg_btn_light_dark_selector"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/PX30"
+        android:paddingRight="@dimen/PX30">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/log_file"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_file"
+            style="@style/Horizontal_0M1"
+            android:drawablePadding="@dimen/PX30"
+            android:drawableRight="@mipmap/icon_arrow"
+            android:gravity="right|center_vertical"
+            android:paddingLeft="@dimen/PX30"
+            android:text="@string/undefine"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>

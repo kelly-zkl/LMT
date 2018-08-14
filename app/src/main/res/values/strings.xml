@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">场堪工具</string>
+
+    <string name="return_back">返回</string>
+
+    <string name="scanner">扫频</string>
+    <string name="village_message">小区信息</string>
+    <string name="multi_param">重选参数</string>
+    <string name="signalling">信令</string>
+    <string name="event_list">事件记录</string>
+    <string name="test">测试</string>
+    <string name="attach">ATTACH测试</string>
+    <string name="ping">PING包测试</string>
+    <string name="answer">呼叫应答测试</string>
+
+    <string name="service_village">服务小区</string>
+    <string name="village_list">小区列表</string>
+    <string name="band">Band</string>
+    <string name="EARFCN">EARFCN</string>
+    <string name="PCI">PCI</string>
+    <string name="reason">原因</string>
+    <string name="RSRP">RSRP</string>
+    <string name="TAC">TAC</string>
+    <string name="BandWidth">带宽</string>
+    <string name="RS">RS</string>
+    <string name="RSRQ">RSRQ</string>
+    <string name="ENB">ENB</string>
+    <string name="CellId">CellId</string>
+    <string name="peibi">上下行配比</string>
+    <string name="zhen">特殊子帧配置</string>
+    <string name="S">S</string>
+    <string name="N">N</string>
+
+    <string name="min_dian">接入服务小区的最小电平</string>
+    <string name="max_tongpin">同频重选启动测量门限</string>
+    <string name="max_yipin">异频重选启动测量门限</string>
+    <string name="max_level">同等优先级重选门限</string>
+    <string name="max_pindian">服务频点重选优先级</string>
+
+    <string name="high_level">高优先级重选门限</string>
+    <string name="low_level">低优先级重选门限</string>
+
+    <string name="time">时间</string>
+
+    <string name="setting">设置</string>
+    <string name="log_set">LOG设置</string>
+    <string name="test_set">测试设置</string>
+
+    <string name="req">req</string>
+    <string name="reject">reject</string>
+    <string name="dial">拨打</string>
+    <string name="connect">接通</string>
+    <string name="succ_rate">成功率</string>
+    <string name="fail_list">失败记录</string>
+    <string name="result">结果</string>
+
+    <string name="log_collection_set">LOG采集配置</string>
+    <string name="auto_collection">开始采集</string>
+    <string name="import_model">导入LOG模板</string>
+    <string name="log_file">LOG存放路径</string>
+
+    <!--测试设置-->
+    <string name="auto_attach">自动ATTACH测试</string>
+    <string name="auto_ping">自动PING包测试</string>
+    <string name="auto_answer">自动呼叫</string>
+    <string name="has_open">已开启</string>
+    <string name="has_close">已关闭</string>
+
+    <string name="lock_set">锁频设置</string>
+    <string name="lock_net">锁网</string>
+    <string name="lock_band">锁频段</string>
+    <string name="lock_earfcn">锁频点</string>
+    <string name="lock_pci">锁PCI</string>
+    <string name="default_set">恢复默认设置</string>
+
+    <string name="san_set">扫频设置</string>
+    <string name="clear_san_data">清空扫频数据</string>
+
+    <string name="auto">默认</string>
+    <string name="G2">2G</string>
+    <string name="G3">3G</string>
+    <string name="G4">4G</string>
+    <string name="b1">B1</string>
+    <string name="b3">B3</string>
+    <string name="b5">B5</string>
+    <string name="b7">B7</string>
+    <string name="b8">B8</string>
+    <string name="b38">B38</string>
+    <string name="b39">B39</string>
+    <string name="b40">B40</string>
+    <string name="b41">B41</string>
+    <string name="input_band">输入Band</string>
+    <string name="earfcn_num">频点号</string>
+    <string name="input_earfcn_num">输入频点</string>
+    <string name="input_pci">输入PCI</string>
+
+    <string name="second">秒</string>
+    <string name="zijie">Byte</string>
+    <string name="count">次</string>
+    <string name="test_time">测试周期</string>
+    <string name="input_test_time">输入周期</string>
+    <string name="attach_between_dettach">ATTACH与dettach间隔</string>
+    <string name="input_space">输入间隔时间</string>
+    <string name="execution_count">执行次数</string>
+    <string name="input_execution_count">输入执行次数</string>
+    <string name="ip_address">IP地址</string>
+    <string name="input_ip_address">输入IP地址</string>
+    <string name="space_time">时间间隔</string>
+    <string name="input_space_time">输入时间间隔</string>
+    <string name="pack_size">包大小</string>
+    <string name="input_pack_size">输入PING包大小</string>
+    <string name="call_set">主叫设置</string>
+    <string name="auto_call">自动呼叫</string>
+    <string name="call_number">呼叫号码</string>
+    <string name="input_call_number">输入呼叫号码</string>
+    <string name="call_space">呼叫间隔</string>
+    <string name="input_call_space">输入呼叫间隔</string>
+    <string name="call_time">通话时长</string>
+    <string name="input_call_time">输入通话时长</string>
+    <string name="called_set">被叫设置</string>
+    <string name="called_auto_answer">被叫自动应答</string>
+
+    <string name="undefine">&#045;&#045;</string>
+    <string name="save">保存</string>
+    <string name="choose_all">全选</string>
+    <string name="unsupport_import">暂不支持导入</string>
+
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

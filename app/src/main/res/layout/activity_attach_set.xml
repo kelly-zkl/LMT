@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/layout_title"
+        layout="@layout/layout_title_return_save" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PX130"
+        android:layout_marginTop="@dimen/PX50"
+        android:background="@drawable/bg_btn_light_dark_selector"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/PX50"
+        android:paddingRight="@dimen/PX50">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/attach_between_dettach"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/et_space"
+            style="@style/CommonEdit"
+            android:layout_marginLeft="@dimen/PX80"
+            android:hint="@string/input_space"
+            android:inputType="number"
+            android:lines="1"
+            android:textCursorDrawable="@drawable/line_blue_shape" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/second"
+            android:textColor="@color/grey" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PX130"
+        android:layout_marginTop="@dimen/PX3"
+        android:background="@drawable/bg_btn_light_dark_selector"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/PX50"
+        android:paddingRight="@dimen/PX50">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/execution_count"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/et_count"
+            style="@style/CommonEdit"
+            android:layout_marginLeft="@dimen/PX80"
+            android:hint="@string/input_execution_count"
+            android:inputType="number"
+            android:lines="1"
+            android:textCursorDrawable="@drawable/line_blue_shape" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/count"
+            android:textColor="@color/grey" />
+    </LinearLayout>
+</LinearLayout>

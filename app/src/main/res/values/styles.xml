@@ -1,0 +1,119 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--全屏dialog-->
+    <style name="MyDialog" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <!-- 有无边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@color/tran_half</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <style name="Vertical_M01">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="Horizontal_0M1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="LabelText" parent="Vertical_M01">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="ContentText" parent="Vertical_M01">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--公共RadioButton样式-->
+    <style name="CommonRadioButton" parent="Horizontal_0M1">
+        <item name="android:textColor">@color/textcolor_home_rbtn</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingTop">@dimen/PX15</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--黑色线条-->
+    <style name="BlackLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/PX3</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="CommonEdit" parent="Horizontal_0M1">
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--锁Band CheckBox-->
+    <style name="BandCb">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/PX130</item>
+        <item name="android:background">@drawable/bg_btn_light_dark_selector</item>
+        <item name="android:paddingLeft">@dimen/PX50</item>
+        <item name="android:layout_marginBottom">@dimen/PX3</item>
+        <item name="android:paddingRight">@dimen/PX50</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--锁网RadioButton-->
+    <style name="NetRadioBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/PX130</item>
+        <item name="android:background">@drawable/bg_btn_light_dark_selector</item>
+        <item name="android:paddingLeft">@dimen/PX50</item>
+        <item name="android:layout_marginBottom">@dimen/PX3</item>
+        <item name="android:paddingRight">@dimen/PX50</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--公用矩形进度条-->
+    <style name="CommonProgress">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progressbar_horizontal</item>
+        <item name="android:indeterminateDrawable">
+            @android:drawable/progress_indeterminate_horizontal
+        </item>
+        <item name="android:minHeight">20dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+
+    <style name="MySwitch" parent="Theme.AppCompat.Light">
+        <!-- Active thumb color & Active track color(30% transparency)
+            switch 打开时的拇指按钮的颜色 轨迹颜色默认为30%这个颜色 -->
+        <item name="colorControlActivated">@color/text_return</item>
+        <!-- Inactive thumb color switch关闭时的拇指按钮的颜色 -->
+        <item name="colorSwitchThumbNormal">@color/grey</item>
+        <!-- Inactive track color(30% transparency) switch关闭时的轨迹的颜色  30%这个颜色 -->
+        <item name="android:colorForeground">@color/grey</item>
+        <!--使用方法：
+        在布局文件中给需要自定义控件中增加app:theme="@style/MySwitch"-->
+    </style>
+</resources>

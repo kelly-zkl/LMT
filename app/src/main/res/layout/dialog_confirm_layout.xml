@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_white_corner_shape"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_dialog_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/PX100"
+            android:textColor="#333"
+            android:textSize="16sp" />
+
+        <View
+            style="@style/BlackLine"
+            android:background="@color/light_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/PX150"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                style="@style/Horizontal_0M1"
+                android:background="@color/transparent"
+                android:text="@string/cancel"
+                android:textColor="@color/textcolor_blue_grey" />
+
+            <View
+                android:layout_width="@dimen/PX3"
+                android:layout_height="match_parent"
+                android:background="@color/light_gray" />
+
+            <Button
+                android:id="@+id/btn_confirm"
+                style="@style/Horizontal_0M1"
+                android:background="@color/transparent"
+                android:text="@string/confirm"
+                android:textColor="@color/textcolor_blue_grey" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

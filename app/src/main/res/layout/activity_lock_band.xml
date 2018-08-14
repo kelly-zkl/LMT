@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/layout_title"
+        layout="@layout/layout_title_return_save" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/PX50"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cb_b1"
+            style="@style/BandCb"
+            android:text="@string/b1" />
+
+        <CheckBox
+            android:id="@+id/cb_b3"
+            style="@style/BandCb"
+            android:text="@string/b3" />
+
+        <CheckBox
+            android:id="@+id/cb_b5"
+            style="@style/BandCb"
+            android:text="@string/b5" />
+
+        <CheckBox
+            android:id="@+id/cb_b7"
+            style="@style/BandCb"
+            android:text="@string/b7" />
+
+        <CheckBox
+            android:id="@+id/cb_b8"
+            style="@style/BandCb"
+            android:text="@string/b8" />
+
+        <CheckBox
+            android:id="@+id/cb_b38"
+            style="@style/BandCb"
+            android:text="@string/b38" />
+
+        <CheckBox
+            android:id="@+id/cb_b39"
+            style="@style/BandCb"
+            android:text="@string/b39" />
+
+        <CheckBox
+            android:id="@+id/cb_b40"
+            style="@style/BandCb"
+            android:text="@string/b40" />
+
+        <CheckBox
+            android:id="@+id/cb_b41"
+            style="@style/BandCb"
+            android:text="@string/b41" />
+    </LinearLayout>
+</LinearLayout>

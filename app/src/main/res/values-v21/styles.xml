@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 导航栏 半透明-->
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!-- 状态栏 半透明 -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <!-- Android 5.0开始需要把颜色设置为透明。否状态栏会用系统默认的浅灰色 （Android 5.0以后支持修改颜色，需指定颜色）-->
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="PageTitle">
+        <item name="android:background">@color/background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/PX160</item>
+        <item name="android:layout_marginTop">@dimen/PX60</item>
+    </style>
+</resources>

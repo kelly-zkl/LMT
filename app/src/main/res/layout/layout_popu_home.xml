@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/PX380"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="@dimen/PX350"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/PX30">
+
+        <ImageView
+            android:id="@+id/iv_triangle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/PX40"
+            android:src="@drawable/triangle_up" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_triangle"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/popu_bg_shape"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/PX20"
+            android:paddingTop="@dimen/PX20">
+
+            <Button
+                android:id="@+id/btn_scan_set"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/PX120"
+                android:background="@drawable/bg_btn_light_dark_selector"
+                android:gravity="center"
+                android:text="@string/san_set"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/PX2"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/btn_clear"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/PX120"
+                android:background="@drawable/bg_btn_light_dark_selector"
+                android:gravity="center"
+                android:text="@string/clear_san_data"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

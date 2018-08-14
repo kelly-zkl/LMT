@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PX150"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/PX20"
+        android:paddingTop="@dimen/PX20">
+
+        <LinearLayout
+            style="@style/Horizontal_0M1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LabelText"
+                android:text="@string/band" />
+
+            <TextView
+                android:id="@+id/tv_band"
+                style="@style/ContentText"
+                android:text="@string/undefine" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Horizontal_0M1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LabelText"
+                android:text="@string/EARFCN" />
+
+            <TextView
+                android:id="@+id/tv_earfcn"
+                style="@style/ContentText"
+                android:text="@string/undefine" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Horizontal_0M1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LabelText"
+                android:text="@string/PCI" />
+
+            <TextView
+                android:id="@+id/tv_pci"
+                style="@style/ContentText"
+                android:text="@string/undefine" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Horizontal_0M1"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LabelText"
+                android:text="@string/RSRP" />
+
+            <com.wisec.scanner.customview.ProgressView
+                android:id="@+id/pb_rsrp"
+                style="@style/CommonProgress"
+                app:set_progress_max="100"
+                app:title_text_color="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PX150"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/PX20"
+        android:paddingTop="@dimen/PX20">
+
+        <LinearLayout
+            style="@style/Horizontal_0M1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LabelText"
+                android:text="@string/TAC" />
+
+            <TextView
+                android:id="@+id/tv_tac"
+                style="@style/ContentText"
+                android:text="@string/undefine" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Horizontal_0M1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LabelText"
+                android:text="@string/BandWidth" />
+
+            <TextView
+                android:id="@+id/tv_bandwidth"
+                style="@style/ContentText"
+                android:text="@string/undefine" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Horizontal_0M1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LabelText"
+                android:text="@string/RS" />
+
+            <TextView
+                android:id="@+id/tv_rs"
+                style="@style/ContentText"
+                android:text="@string/undefine" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Horizontal_0M1"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LabelText"
+                android:text="@string/RSRQ" />
+
+            <com.wisec.scanner.customview.ProgressView
+                android:id="@+id/pb_rsrq"
+                style="@style/CommonProgress"
+                app:set_progress_max="100"
+                app:title_text_color="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PX150"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/PX20"
+        android:paddingTop="@dimen/PX20">
+
+        <LinearLayout
+            style="@style/Horizontal_0M1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LabelText"
+                android:text="@string/ENB" />
+
+            <TextView
+                android:id="@+id/tv_enb"
+                style="@style/ContentText"
+                android:text="@string/undefine" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Horizontal_0M1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LabelText"
+                android:text="@string/CellId" />
+
+            <TextView
+                android:id="@+id/tv_cellid"
+                style="@style/ContentText"
+                android:text="@string/undefine" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Horizontal_0M1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LabelText"
+                android:text="@string/peibi" />
+
+            <TextView
+                android:id="@+id/tv_peibi"
+                style="@style/ContentText"
+                android:text="@string/undefine" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Horizontal_0M1"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LabelText"
+                android:gravity="center"
+                android:text="@string/zhen" />
+
+            <TextView
+                android:id="@+id/tv_zhen"
+                style="@style/ContentText"
+                android:gravity="center"
+                android:text="@string/undefine" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

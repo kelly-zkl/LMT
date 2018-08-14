@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/line_blue_shape"
+        android:drawablePadding="@dimen/PX20"
+        android:padding="@dimen/PX30"
+        android:text="@string/fail_list"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PX80"
+        android:layout_marginBottom="@dimen/PX5"
+        android:background="@color/table_title"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Horizontal_0M1"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/PX30"
+            android:text="@string/time"
+            android:textColor="@color/grey" />
+
+        <TextView
+            style="@style/Horizontal_0M1"
+            android:gravity="center_vertical"
+            android:text="@string/result"
+            android:textColor="@color/grey" />
+    </LinearLayout>
+</LinearLayout>

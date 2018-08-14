@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/PageTitle">
+
+    <TextView
+        android:id="@+id/tv_return"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bg_btn_dark_light_selcetor"
+        android:drawableLeft="@mipmap/icon_return"
+        android:drawablePadding="@dimen/PX30"
+        android:gravity="center"
+        android:paddingLeft="@dimen/PX30"
+        android:paddingRight="@dimen/PX30"
+        android:text="@string/return_back"
+        android:textColor="@color/text_return" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/return_back"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_save"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/bg_btn_dark_light_selcetor"
+        android:gravity="center"
+        android:paddingLeft="@dimen/PX30"
+        android:paddingRight="@dimen/PX30"
+        android:text="@string/save"
+        android:textColor="@color/text_return" />
+
+    <TextView
+        style="@style/BlackLine"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

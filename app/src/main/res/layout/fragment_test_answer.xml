@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.wisec.scanner.ui.test.AnswerTestFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/content"
+        android:padding="@dimen/PX30">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/line_blue_shape"
+            android:drawablePadding="@dimen/PX30"
+            android:text="@string/answer"
+            android:textColor="@color/white" />
+
+        <Switch
+            android:id="@+id/sw_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:theme="@style/MySwitch" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/PX1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/Horizontal_0M1"
+            android:layout_marginRight="@dimen/PX1"
+            android:background="@color/content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/PX30"
+            android:paddingTop="@dimen/PX30">
+
+            <TextView
+                android:id="@+id/tv_dial"
+                style="@style/ContentText"
+                android:gravity="center"
+                android:text="@string/undefine" />
+
+            <TextView
+                style="@style/LabelText"
+                android:gravity="center"
+                android:text="@string/dial" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Horizontal_0M1"
+            android:layout_marginRight="@dimen/PX1"
+            android:background="@color/content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/PX30"
+            android:paddingTop="@dimen/PX30">
+
+            <TextView
+                android:id="@+id/tv_connect"
+                style="@style/ContentText"
+                android:gravity="center"
+                android:text="@string/undefine" />
+
+            <TextView
+                style="@style/LabelText"
+                android:gravity="center"
+                android:text="@string/connect" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Horizontal_0M1"
+            android:background="@color/content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/PX30"
+            android:paddingTop="@dimen/PX30">
+
+            <TextView
+                android:id="@+id/tv_success"
+                style="@style/ContentText"
+                android:gravity="center"
+                android:text="@string/undefine" />
+
+            <TextView
+                style="@style/LabelText"
+                android:gravity="center"
+                android:text="@string/succ_rate" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcv_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
