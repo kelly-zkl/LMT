@@ -18,7 +18,7 @@ import okhttp3.Response;
 
 public class HttpUtils {
 
-    public static final String HTTP_URL = "http://119.23.232.135:49191/HuiAnApi/device/verify";
+    public static final String HTTP_URL = "http://119.23.232.135:49191/HuiAnApi/device/verify";//113.108.109.221:49191
 
     public void get() {
         OkHttpClient client = new OkHttpClient();
